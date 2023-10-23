@@ -1,0 +1,26 @@
+.mainMidKonten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+
+    /* border: 1px solid black; */
+}
+
+.mainMidKontenItem{
+    flex: 0 0 27%;
+    background-color: #BDEBFF;
+    height: 350px;
+    width: auto;
+    margin: 0px 0px 0px 9px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.mainMidKontenItem:first-child {
+    flex: 0 0 70%;
+    margin: 0;
+}

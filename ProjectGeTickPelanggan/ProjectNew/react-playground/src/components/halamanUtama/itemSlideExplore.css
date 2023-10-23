@@ -1,0 +1,18 @@
+.mainItemSlideExplore{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;  
+    margin: 0px; 
+}
+
+.itemExplore{
+    display: flex;
+    width: 150px;
+    height: 230px;
+    border-radius:10px ;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
