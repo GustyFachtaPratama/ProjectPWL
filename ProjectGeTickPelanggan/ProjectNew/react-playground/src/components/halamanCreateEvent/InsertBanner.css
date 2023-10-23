@@ -1,0 +1,39 @@
+.mainInsertBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+
+    /* border: 1px solid black; */
+}
+
+.mainInsertBannerItem{
+    flex: 0 0 70%;
+    background-color: #BDEBFF;
+    height: 150px;
+    width: auto;
+    margin: 0px 0px 0px 9px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.mainInsertBannerItem h2{
+    display: flex;
+    justify-content: center;
+}
+
+.mainInsertBannerItem button.tambahEvent{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 1000px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.mainInsertBannerItem button.tambahEvent:hover{
+    background-color: white;
+}

@@ -1,0 +1,199 @@
+.mainInsertDetailEventTicket {
+    display: flex;
+    justify-content: center;
+    background-color: #BDEBFF;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.mainInserDetaiEventItemTicket{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.mainInserDetaiEventItemTicket:first-child{
+
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.mainInserDetaiEventItemTicket:nth-child(2){
+    margin: 0 70px;
+}
+.mainInserDetaiEventItemTicket:nth-child(3){
+    margin: 0 70px;
+}
+
+.mainInserDetaiEventItemTicket h2{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.mainInserDetaiEventTicketItemAtas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:5px 10px;
+    margin:10px;
+}
+
+.mainInserDetaiEventTicketItemAtasItem{
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 5px 0;
+    
+}
+.mainInserDetaiEventTicketItemAtasItem label p{
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+.mainInserDetaiEventTicketItemAtasItem label input.panjang{
+    display: flex;
+    padding: 7px 320px;
+    height: auto;
+    align-items: center;
+}
+
+.mainInserDetaiEventTicketItemAtasItemMid {
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 0; /* Menghapus margin agar tidak menimbulkan efek yang tidak diinginkan */
+}
+
+.mainInserDetaiEventTicketItemAtasItemMid:first-child {
+    margin-right: auto; /* Menggeser ke sebelah kiri */
+}
+
+.mainInserDetaiEventTicketItemAtasItemMid:last-child {
+    margin-left: auto; /* Menggeser ke sebelah kanan */
+}
+
+.duiButton{
+    width: 100%;
+    height: auto;
+}
+
+.duiButton button{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+
+.duiButton:first-child button{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+.duiButton:first-child button:hover{
+    background-color: rgb(199, 199, 199);
+
+}
+.duiButton:nth-child(2) button{
+    width: 100%;
+    height: 30px;
+    background-color: #0085FF;
+    border: none;
+}
+
+
+.InsertDetailEventTicketBottom{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.fromTicketDetail label{
+    padding: 0 75px 0 95px;
+}
+
+.fromTicketDetail label p{
+    display: flex;
+    width: 160px;
+    height: auto;
+    align-items: center;
+    margin: 11px 10px;
+    margin-right:30px ;    
+}
+
+
+.TicketDetail h2{
+    padding-left:30px ;
+}
+
+
+.SaleDate h2{
+    padding-left: 30px;
+}
+
+.saledatekiri{
+    display: flex;
+    padding: 0 75px;
+}
+
+.saledatekanan{
+    display: flex;
+    padding: 0 75px;
+}
+
+.saledatekiri label{
+    width: 500px;
+}
+
+.saledatekanan label{
+    width: 500px;
+}
+
+.saledatekiri label p{
+    display: flex;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    margin: 11px 30px;
+}
+
+.saledatekanan label p{
+    display: flex;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    margin: 11px 30px;
+}
+
+.mainInserDetaiEventItemTicket .SaveCreateEvent {
+    width: 1025px;
+    height: 35px;
+    border-radius:20px ;
+    border: none;
+    background-color: #00A8EF;
+    margin-bottom: 10px;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainInserDetaiEventItemTicket .SaveCreateEvent:hover {
+    background-color: #0077ab;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}

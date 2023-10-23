@@ -1,0 +1,138 @@
+.mainEditDetailEvent {
+    display: flex;
+    justify-content: center;
+    background-color: #BDEBFF;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.mainEditDetailEventItem{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.mainEditDetailEventItem:first-child{
+
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.mainEditDetailEventItem:nth-child(2){
+    margin: 0 70px;
+}
+.mainEditDetailEventItem:nth-child(3){
+    margin: 0 70px;
+}
+
+.mainEditDetailEventItem h2{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.mainEditDetailEventItemAtas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:5px 10px;
+    margin:10px;
+}
+
+.mainEditDetailEventItemAtasItem{
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 5px 0;
+    
+}
+.mainEditDetailEventItemAtasItem label p{
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+.mainEditDetailEventItemAtasItem label input.panjang{
+    display: flex;
+    padding: 7px 320px;
+    height: auto;
+    align-items: center;
+}
+
+.mainEditDetailEventItemAtasItemMid {
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 0; /* Menghapus margin agar tidak menimbulkan efek yang tidak diinginkan */
+}
+
+.mainEditDetailEventItemAtasItemMid:first-child {
+    margin-right: auto; /* Menggeser ke sebelah kiri */
+}
+
+.mainEditDetailEventItemAtasItemMid:last-child {
+    margin-left: auto; /* Menggeser ke sebelah kanan */
+}
+
+.duoButtonEditEvent{
+    width: 100%;
+    height: auto;
+}
+
+.duoButtonEditEvent button{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+
+.duoButtonEditEvent:first-child button{
+    width: 100%;
+    height: 30px;
+    background-color: #0085FF;
+    border: none;
+}
+.duoButtonEditEvent:nth-child(2) button:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.EditDetailEventBottom{
+    width: 100%;
+}
+
+.EditDetailEventBottom textarea{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: none;
+}
+
+.mainEditDetailEventItem .KembaliCreateEvent {
+    width: 1025px;
+    height: 35px;
+    border-radius:20px ;
+    border: none;
+    background-color: #fc4c4c;
+    margin-bottom: 10px;
+    color: white;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainEditDetailEventItem .KembaliCreateEvent:hover {
+    background-color: #b53636;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
