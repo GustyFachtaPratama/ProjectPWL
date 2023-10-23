@@ -1,0 +1,110 @@
+.mainKontenDetailPemesananItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    height: auto;
+}
+
+.mainKontenDetailPemesananItemBawah{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainKontenDetailPemesananItemBawahItem{
+    flex: 0 0 30%;
+    height: 500px;
+    width: auto;
+    margin: 0px 0px 0px 9px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -30px;
+}
+
+.mainKontenDetailPemesananItemBawahItem h2{
+    text-align: center;
+}
+
+.mainKontenDetailPemesananItemBawahItem table{
+    align-items: center;
+    padding:0 70px ;
+    width: 400px;
+    border: none;
+}
+
+.mainKontenDetailPemesananItemBawahItem table tr td{
+    padding: 5px 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.mainKontenDetailPemesananItemBawahItem table tr:first-child{
+    border-bottom: 1px solid black;
+}
+
+
+.mainKontenDetailPemesananItemBawahItem table tr:first-child td{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.mainKontenDetailPemesananItemBawahItem:first-child {
+    flex: 0 0 67%;
+    margin: 0;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #d6edf6 47%, #6ccff9);
+}
+
+.Jarak{
+    padding: 0 50px;
+}
+
+.Jarak input{
+    border: 1px solid black;
+}
+
+.duoButtonDetailPemesanan{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.duoButtonDetailPemesanan button{ 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-left: 100px;
+    margin: 30px 0 -15px 0;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.duoButtonDetailPemesanan button.KembaliDetailPemesanan{ 
+    background-color: #F74747;
+}
+
+.duoButtonDetailPemesanan button.CheckPayment{ 
+    background-color: #19FF22;
+}
+
+.duoButtonDetailPemesanan button.KembaliDetailPemesanan:hover{ 
+    background-color: #9f2e2e;
+    color: white;
+}
+
+.duoButtonDetailPemesanan button.CheckPayment:hover{ 
+    background-color: #11a316;
+    color: white;
+}

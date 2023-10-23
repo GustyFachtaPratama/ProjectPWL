@@ -1,0 +1,118 @@
+.mainHeaderLoginPopUpUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71D4FF;
+    padding: 20px;
+    color: white;
+    height: 25px;
+    position: relative;
+}
+
+.mainHeaderLoginPopUpUserItem {
+    display: flex;
+    width: auto; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi sesuai kebutuhan */
+    margin: 0 10px; /* Sesuaikan margin sesuai kebutuhan */
+    align-items: center;
+  }
+
+.mainHeaderLoginPopUpUserItem:first-child {
+    margin-right: auto;
+
+}
+
+.mainHeaderLoginPopUpUserItem img {
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+}
+
+.mainHeaderLoginPopUpUserItem button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderLoginPopUpUserItem img.searchIcon {
+    width: 35px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainHeaderLoginPopUpUserItem button:hover {
+    background-color: #71D4FF; /* Ubah warna latar belakang saat hover */
+    color: white; /* Ubah warna teks saat hover */
+    border: 3px solid white; /* Ubah warna border saat hover */
+}
+
+.mainHeaderLoginPopUpUserItem button.buttonDaftar:hover {
+    background-color: white;
+    color: #71D4FF;
+}
+
+.mainHeaderLoginPopUpUserItem button.buttonMasuk:hover {
+    background-color: #3B0052;
+    border-color: #3B0052;
+    color: blue;
+}
+
+.mainHeaderLoginPopUpUserItem button.searchButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+}
+
+.mainHeaderLoginPopUpUserItem button.searchButton:hover {
+    background-color: white; /* Ubah warna latar belakang saat hover jika diperlukan */
+}
+
+.mainHeaderPopUpMenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* Geser ke kanan untuk berada di pojok kanan */
+    background-color: #080068;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 30px;
+    height: 57px;
+}
+
+.mainHeaderPopUpMenuItem {
+    margin-bottom: 5px; /* Sesuaikan jarak antar item */
+}
+
+.buttonProfil,
+.buttonLogout {
+    background-color: #080068;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.buttonProfil:hover,
+.buttonLogout:hover {
+    background-color: rgb(0, 0, 139);
+    color: #71D4FF;
+}

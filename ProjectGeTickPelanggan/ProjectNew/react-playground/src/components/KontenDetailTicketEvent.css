@@ -1,0 +1,174 @@
+.mainKontenDetailTicketEventItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    height: auto;
+}
+
+.mainKontenDetailTicketEventItemBawah{
+    display: flex;
+    justify-content: center;
+    background-color: #BDEBFF;
+    width: 96%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.mainKontenDetailTicketEventItemBawahItem{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.mainKontenDetailTicketEventItemBawahItem:first-child{
+
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.mainKontenDetailTicketEventItemBawahItem:nth-child(2){
+    margin: 0 70px;
+}
+.mainKontenDetailTicketEventItemBawahItem:nth-child(3){
+    margin: 0 70px;
+}
+
+.mainKontenDetailTicketEventItemBawahItem h2{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.duoButtonDetailTicketEvent{
+    width: 100%;
+    height: 80px;
+}
+
+.duoButtonDetailTicketEvent button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+.duoButtonDetailTicketEvent:nth-child(2) button{
+    width: 100%;
+    height: 40px;
+    background-color: #A0A6D9;
+    border: none;
+}
+.duoButtonDetailTicketEvent:first-child button:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.choiseTicket{
+    background-image:url(../gambar/backgroundTicket.svg);
+    background-size: 1100px; /* This will cover the entire viewport */
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.choiseTicketKonten{
+    width: 1100px;
+    height: 300px;
+}
+
+.choiseTicketKonten h3{
+    margin-left:75px ;
+}
+
+.choiseTicketKonten p{
+    margin-left:75px ;
+}
+
+.choiseTicketKonten p.biru{
+    color: blue;
+}
+
+.choiseTicketKonten img{
+    margin-left: 75px;
+    width: 950px;
+}
+
+.choiseTicketKonten span{
+    display: flex;
+    margin-left: 75px;
+}
+
+.choiseTicketKonten span input{
+    width: 30px;
+    margin: 0 5px;
+}
+
+
+.choiseTicketKonten span button{
+    width: 55px;
+    height: auto;
+    border-radius:100% ;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.choiseTicketKonten span button:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.choiseTicketKonten span button:first-child{
+    width: 60px;
+    margin-left: 710px;
+}
+
+.choiseTicketKonten span button .jumlahTicket{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.duoButtonDetailTicket{
+    margin-left: 850px;
+    margin-top: 20px;
+}
+
+.duoButtonDetailTicket button{
+    width: 90px;
+    padding: 5px 10px;
+    margin: 50px 20px 0 0px;
+    border-radius: 20px;
+    border: none;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.duoButtonDetailTicket button.ButtonKembaliDetailTicket{
+    background-color: red;
+}
+
+
+.duoButtonDetailTicket button.ButtonPesanDetailTicket{
+    background-color: #19FF22;
+}
+
+.duoButtonDetailTicket button.ButtonKembaliDetailTicket:hover{
+    background-color: rgb(156, 0, 0);
+    color: white;
+}
+
+
+.duoButtonDetailTicket button.ButtonPesanDetailTicket:hover{
+    background-color: #11a516;
+    color: white;
+}
+
+

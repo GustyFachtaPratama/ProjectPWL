@@ -1,0 +1,52 @@
+.mainKontenTransaksiSuksesItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    height: auto;
+}
+
+.mainKontenTransaksiSuksesItemBawah{
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainKontenTransaksiSuksesItemBawahItem:first-child{
+    margin-top: 40px;
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    background:greenyellow;
+}
+
+.mainKontenTransaksiSuksesItemBawahItem:first-child h1{
+    text-align: center;
+}
+
+.mainKontenTransaksiSuksesItemBawahItem:last-child{
+    margin:50px 0 50px 700px ;
+}
+
+.mainKontenTransaksiSuksesItemBawahItem button{
+    width: 150px;
+    height: 40px;
+    background-color: #1991FF;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.mainKontenTransaksiSuksesItemBawahItem button:hover{
+    background-color: #105493;
+
+}

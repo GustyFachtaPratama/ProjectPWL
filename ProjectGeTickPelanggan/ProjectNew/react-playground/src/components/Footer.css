@@ -1,0 +1,9 @@
+.mainFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71D4FF;
+    padding: 20px;
+    color: black;
+    height: 25px;
+}

@@ -1,0 +1,128 @@
+.mainHeaderSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71D4FF;
+    padding: 20px;
+    color: white;
+    height: 25px;
+    position: relative;
+}
+
+.mainHeaderSearchItem {
+    display: flex;
+    width: auto; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi sesuai kebutuhan */
+    margin: 0 10px; /* Sesuaikan margin sesuai kebutuhan */
+    align-items: center;
+  }
+
+.mainHeaderSearchItem:first-child {
+    margin-right: auto;
+
+}
+
+.mainHeaderSearchItem img {
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+}
+
+.mainHeaderSearchItem button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderSearchItem img.searchIcon {
+    width: 35px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainHeaderSearchItem button.buttonDaftar{
+    background-color: #71D4FF;
+    color: white;
+    border: 3px solid white; 
+    padding: 5px 5px ;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderSearchItem button.buttonMasuk{
+    background-color: #080068;
+    color: white;
+    border: 3px solid #080068; 
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderSearchItem button:hover {
+    background-color: #71D4FF; /* Ubah warna latar belakang saat hover */
+    color: white; /* Ubah warna teks saat hover */
+    border: 3px solid white; /* Ubah warna border saat hover */
+}
+
+.mainHeaderSearchItem button.buttonDaftar:hover {
+    background-color: white;
+    color: #71D4FF;
+}
+
+.mainHeaderSearchItem button.buttonMasuk:hover {
+    background-color: #3B0052;
+    border-color: #3B0052;
+    color: blue;
+}
+
+.mainHeaderSearchItem button.searchButtonSearch {
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.mainHeaderSearchItem button.searchButton {
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 0 10px;
+}
+
+.mainHeaderSearchItem button.searchButtonSearch label input{
+    background-color: white;
+}
+
+.mainHeaderSearchItem button.searchButtonSearch label button{
+    width: 40px;
+}
+
+
+.mainHeaderSearchItem button.searchButtonSearch label button img{
+    width: 20px;
+    padding: 0;
+}
+
+.mainHeaderSearchItem button.searchButtonSearch:hover {
+    background-color: white; /* Ubah warna latar belakang saat hover jika diperlukan */
+}

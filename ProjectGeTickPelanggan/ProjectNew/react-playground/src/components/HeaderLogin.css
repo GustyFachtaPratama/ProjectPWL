@@ -1,0 +1,123 @@
+.mainHeaderLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71D4FF;
+    padding: 20px;
+    color: white;
+    height: 25px;
+    position: relative;
+}
+
+.mainHeaderLoginItem {
+    display: flex;
+    width: auto; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi sesuai kebutuhan */
+    margin: 0 10px; /* Sesuaikan margin sesuai kebutuhan */
+    align-items: center;
+  }
+
+.mainHeaderLoginItem:first-child {
+    margin-right: auto;
+
+}
+
+.mainHeaderLoginItem img {
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+}
+
+.mainHeaderLoginItem button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderLoginItem img.searchIcon {
+    width: 35px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainHeaderLoginItem button.buttonDaftar{
+    background-color: #71D4FF;
+    color: white;
+    border: 3px solid white; 
+    padding: 5px 5px ;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderLoginItem button.buttonMasuk{
+    background-color: #080068;
+    color: white;
+    border: 3px solid #080068; 
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderLoginItem button:hover {
+    background-color: #71D4FF; /* Ubah warna latar belakang saat hover */
+    color: white; /* Ubah warna teks saat hover */
+    border: 3px solid white; /* Ubah warna border saat hover */
+}
+
+.mainHeaderLoginItem button.buttonDaftar:hover {
+    background-color: white;
+    color: #71D4FF;
+}
+
+.mainHeaderLoginItem button.buttonMasuk:hover {
+    background-color: #3B0052;
+    border-color: #3B0052;
+    color: blue;
+}
+
+.mainHeaderLoginItem button.searchButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+}
+
+.mainHeaderLoginItem button.searchButton:hover {
+    background-color: white; /* Ubah warna latar belakang saat hover jika diperlukan */
+}
+
+.mainHeaderPopUpMenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* Geser ke kanan untuk berada di pojok kanan */
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+
+.mainHeaderLogin:hover .mainHeaderPopUpMenu {
+    display: flex;
+}

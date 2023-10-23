@@ -1,0 +1,192 @@
+.mainProfilePenjual{
+    display: flex;
+    flex-direction: column;
+    background-color: #71D4FF; /* Warna biru sesuai kebutuhan */
+    text-align: center; /* Pusatkan teks */
+    width: 100%;
+    height: 850px;
+    align-items: center;
+}
+
+.mainProfilePenjualItem{
+    padding: 0;
+    margin: 10px;
+    padding: 0px;
+}
+
+.mainProfilePenjualItem:nth-child(2) {
+    display: flex;
+    background-color: #0085FF;
+    flex-direction: column;
+    width: 350px;
+    height: 272px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+
+}
+
+.mainProfilePenjualItem:first-child{
+    margin-top: 20px;
+}
+
+.mainProfilePenjualItem h1 .putih{
+    color: white;
+}
+
+.mainProfilePenjualItem h1{
+    margin: 0px;
+}
+
+.mainProfilePenjualItem:nth-child(3){
+    margin: 0px;
+}
+
+.mainProfilePenjualItemMain{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 10px;
+}
+.mainProfilePenjualItemMain:nth-child(2){
+    justify-content: center;
+}
+.mainProfilePenjualItemMain:nth-child(4){
+    justify-content: center;
+}
+.mainProfilePenjualItemMain:last-child{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #E2E2E2;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button.buttonEdit{
+    display: flex;
+    background-color: white;
+    color: #0085FF;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    width: 35%;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+  }
+  button.buttonEdit:hover{
+    background-color: rgb(175, 175, 175);
+  }
+
+.mainProfilePenjualItem button.buttonKembali{
+    background-color: white;
+    color: #0085FF;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+
+  button.buttonKembali:hover {
+    background-color: rgb(103, 103, 103);
+    color: white;
+  }
+  
+  .mainProfilePenjualItem:last-child {
+    display: flex;
+    background-color: #00A8EF;
+    flex-direction: column;
+    width: 1150px;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainProfilePenjualItem .bawahProfil{
+    align-items: center;
+    justify-content: center;
+}
+
+.mainProfilePenjualItem .bawahProfil p{
+     margin: 0;
+}
+
+.mainProfilePenjualItem img{
+    width: 100px;
+    height: auto;
+}
+
+.bawahProfil .bawahProfilItem p{
+    margin: 20px 0;
+}
+
+.mainItemSlideRiwayatCreateEvent{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;  
+    margin: 0px; 
+    padding-bottom:20px ;
+}
+
+.PosterEventProfil{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.PosterEventProfil h6{
+    margin: 0px;
+    padding: 5px;
+}
+
+.PosterEventProfil img{
+    display: flex;
+    width: 150px;
+    height: 90px;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.PosterEventProfil label{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+
+.PosterEventProfil label img{
+    width: 20px;
+}
+
+.PosterEventProfil p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.PosterEventProfil .garis{
+    height: auto;
+    width: 135px;
+    margin-top: 0;
+    margin-left: 5px;
+}
