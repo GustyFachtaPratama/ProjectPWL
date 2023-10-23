@@ -1,0 +1,138 @@
+.mainInsertDetailEvent {
+    display: flex;
+    justify-content: center;
+    background-color: #BDEBFF;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.mainInserDetaiEventItem{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.mainInserDetaiEventItem:first-child{
+
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.mainInserDetaiEventItem:nth-child(2){
+    margin: 0 70px;
+}
+.mainInserDetaiEventItem:nth-child(3){
+    margin: 0 70px;
+}
+
+.mainInserDetaiEventItem h2{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.mainInserDetaiEventItemAtas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:5px 10px;
+    margin:10px;
+}
+
+.mainInserDetaiEventItemAtasItem{
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 5px 0;
+    
+}
+.mainInserDetaiEventItemAtasItem label p{
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+.mainInserDetaiEventItemAtasItem label input.panjang{
+    display: flex;
+    padding: 7px 320px;
+    height: auto;
+    align-items: center;
+}
+
+.mainInserDetaiEventItemAtasItemMid {
+    display: flex;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    margin: 0; /* Menghapus margin agar tidak menimbulkan efek yang tidak diinginkan */
+}
+
+.mainInserDetaiEventItemAtasItemMid:first-child {
+    margin-right: auto; /* Menggeser ke sebelah kiri */
+}
+
+.mainInserDetaiEventItemAtasItemMid:last-child {
+    margin-left: auto; /* Menggeser ke sebelah kanan */
+}
+
+.duoButton{
+    width: 100%;
+    height: auto;
+}
+
+.duoButton button{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+
+.duoButton:first-child button{
+    width: 100%;
+    height: 30px;
+    background-color: #0085FF;
+    border: none;
+}
+.duoButton:nth-child(2) button:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.InsertDetailEventBottom{
+    width: 100%;
+}
+
+.InsertDetailEventBottom textarea{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: none;
+}
+
+.mainInserDetaiEventItem .KembaliCreateEvent {
+    width: 1025px;
+    height: 35px;
+    border-radius:20px ;
+    border: none;
+    background-color: #fc4c4c;
+    margin-bottom: 10px;
+    color: white;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+.mainInserDetaiEventItem .KembaliCreateEvent:hover {
+    background-color: #b53636;
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
