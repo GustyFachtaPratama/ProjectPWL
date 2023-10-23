@@ -1,0 +1,18 @@
+.mainUpcomingEvent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.mainUpcongEventItem h2{
+    margin:10px ;
+}
+
+.pageNumberUpcoming {
+    display: flex;
+    justify-content: center; /* Memposisikan .pageNumber di tengah-tengah secara horizontal */
+    margin-top: 20px; /* Atur margin-top sesuai kebutuhan untuk menengahkan .pageNumber */
+  }

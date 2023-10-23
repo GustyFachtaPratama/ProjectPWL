@@ -1,0 +1,87 @@
+.mainLarisManis {
+    display: flex;
+    flex: column;
+    align-items: center; /* Memposisikan konten di tengah vertikal */
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+
+.tiketAcara {
+    display: flex;
+    width: 220px;
+    height: 40px;
+    border-radius:10px ;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+  }
+
+  .tiketAcara:first-child {
+    margin-top:0px ;
+}
+
+.tiketAcara:last-child {
+    margin-bottom: 0px;
+}
+
+  .tiketAcara img {
+    width: 50%; /* Foto akan mengambil lebar penuh dari kotaknya */
+    height: auto; /* Foto akan menyesuaikan tingginya sesuai proporsi */
+  }
+
+  .tiketAcara .teksTengah {
+    flex:1;
+    text-align: center; /* Memposisikan teks di tengah horizontal */
+    padding: 20px;
+}
+  
+  .tiketAcara p {
+    margin: 0; /* Menghilangkan margin default dari elemen <p> */
+  }
+.pageNumber {
+    display: flex;
+    justify-content: center; /* Memposisikan .pageNumber di tengah-tengah secara horizontal */
+    margin-top: 20px; /* Atur margin-top sesuai kebutuhan untuk menengahkan .pageNumber */
+  }
+  
+  .pageItem {
+    display: flex;
+    align-items: center; /* Memposisikan nomor di tengah-tengah secara vertikal */
+    justify-content: center; /* Memposisikan nomor di tengah-tengah secara horizontal */
+    margin: 5px;
+    padding: 10px; /* Sesuaikan padding agar lingkaran cukup besar */
+    width: 10px; /* Sesuaikan lebar agar lingkaran cukup besar */
+    height: 10px; /* Sesuaikan tinggi agar lingkaran cukup besar */
+    background-color: #7CC0FF;
+    color: black;
+    border-radius: 50%; /* Mengatur border-radius menjadi 50% untuk membuat bentuk bulat */
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .pageItem:first-child {
+    display: flex;
+    align-items: center; /* Memposisikan nomor di tengah-tengah secara vertikal */
+    justify-content: center; /* Memposisikan nomor di tengah-tengah secara horizontal */
+    margin: 5px;
+    padding: 10px; /* Sesuaikan padding agar lingkaran cukup besar */
+    width: 10px; /* Sesuaikan lebar agar lingkaran cukup besar */
+    height: 10px; /* Sesuaikan tinggi agar lingkaran cukup besar */
+    background-color: #1991FF;
+    color: black;
+    border-radius: 50%; /* Mengatur border-radius menjadi 50% untuk membuat bentuk bulat */
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  .pageItem:nth-child(2):hover {
+    background-color: #2980b9;
+  }
+
+  .pageItem:nth-child(3):hover {
+    background-color: #2980b9;
+  }
+  
