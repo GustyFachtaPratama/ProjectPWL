@@ -1,0 +1,83 @@
+.mainHeaderIconSendiri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71D4FF;
+    padding: 20px;
+    color: white;
+    height: 25px;
+    position: relative;
+}
+
+.mainHeaderIconSendiriItem {
+    display: flex;
+    width: auto; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi sesuai kebutuhan */
+    margin: 0 10px; /* Sesuaikan margin sesuai kebutuhan */
+    align-items: center;
+  }
+
+.mainHeaderIconSendiriItem:first-child {
+    margin-right: auto;
+
+}
+
+.mainHeaderIconSendiriItem img {
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+}
+
+.mainHeaderIconSendiriItem button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 125px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+
+.mainHeaderIconSendiriItem img.searchIcon {
+    width: 35px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: auto; /* Tinggi otomatis agar tidak terdistorsi */
+    /* Tambahkan properti styling lainnya jika diperlukan */
+}
+
+
+
+
+.mainHeaderIconSendiriItem button.searchButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+}
+
+.mainHeaderIconSendiriItem button.searchButton:hover {
+    background-color: white; /* Ubah warna latar belakang saat hover jika diperlukan */
+}
+
+.mainHeaderPopUpMenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* Geser ke kanan untuk berada di pojok kanan */
+    background-color: #080068;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+
+.mainHeaderLogin:hover .mainHeaderPopUpMenu {
+    display: flex;
+}

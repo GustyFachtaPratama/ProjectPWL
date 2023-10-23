@@ -1,0 +1,90 @@
+.mainExploreComponen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    height: auto;
+}
+
+.mainExploreComponenBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:#BDEBFF ;
+}
+
+.mainExploreComponenItem:last-child{
+    margin-bottom: 20px;
+}
+.mainExploreComponenItem .pageNumberExplore{
+    display: flex;
+    justify-content: center; /* Memposisikan .pageNumber di tengah-tengah secara horizontal */
+    margin-top: 20px;
+}
+
+.buttonKembaliExplore{
+    display: flex;
+    background-color: rgb(71, 92, 255);
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    box-sizing: border-box;
+    border-radius: 10px 0 10px 0;
+    margin-right: 1018px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+button.buttonKembaliExplore:hover {
+    background-color: rgb(25, 42, 172);
+  }
+
+.pageItemExplore{
+    display: flex;
+    align-items: center; /* Memposisikan nomor di tengah-tengah secara vertikal */
+    justify-content: center; /* Memposisikan nomor di tengah-tengah secara horizontal */
+    margin: 5px;
+    padding: 10px; /* Sesuaikan padding agar lingkaran cukup besar */
+    width: 10px; /* Sesuaikan lebar agar lingkaran cukup besar */
+    height: 10px; /* Sesuaikan tinggi agar lingkaran cukup besar */
+    background-color: #7CC0FF;
+    color: black;
+    border-radius: 50%; /* Mengatur border-radius menjadi 50% untuk membuat bentuk bulat */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pageItemExplore:first-child{
+    background-color: #1991FF;
+}
+
+
+.pageItemExplore:nth-child(2):hover{
+    background-color: #2980b9;
+}
+
+.pageItemExplore:nth-child(3):hover{
+    background-color: #2980b9;
+}
+
+.mainExploreComponenBackground h2{
+    display: flex;
+    padding-right: 210px;
+    width: 80%;
+    flex-direction: column;
+    border-radius: 10px;   
+}
+
+.buttonKembaliExplore img{
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}

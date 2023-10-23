@@ -1,0 +1,70 @@
+.mainKotenDetailItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    color: black;
+    height: auto;
+}
+
+.mainKotenDetailItemBawah{
+    display: flex;
+    justify-content: center;
+    background-color: #BDEBFF;
+    width: 96%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.mainKotenDetailItemBawahItem{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.mainKotenDetailItemBawahItem:first-child{
+
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.mainKotenDetailItemBawahItem:nth-child(2){
+    margin: 0 70px;
+}
+.mainKotenDetailItemBawahItem:nth-child(3){
+    margin: 0 70px;
+}
+
+.mainKotenDetailItemBawahItem h2{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.duoButtonDetailEvent{
+    width: 100%;
+    height: 80px;
+}
+
+.duoButtonDetailEvent button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+.duoButtonDetailEvent:first-child button{
+    width: 100%;
+    height: 40px;
+    background-color: #A0A6D9;
+    border: none;
+}
+.duoButtonDetailEvent:nth-child(2) button:hover{
+    background-color: rgb(221, 221, 221);
+}
